@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Add New Place</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+</head>
+<body>
+<div id="header">
+	<nav>
+		<ul>
+			<li class="logo2">TT</li>
+			<li><a href="ownerindex.html">Dashboard</a>
+				<span>&gt;</span>
+				Add New Place</li>
+		</ul>
+	</nav>
+</div>
+
+<div id="container">
+	<div class="shell">
+		
+		<div id="main">
+			<div class="cl">&nbsp;</div>
+			
+			<div id="content">
+				
+				<div class="box">
+					<div class="box-head">
+						<h2>Add New Place</h2>
+					</div>
+					
+					<form action="" method="post" enctype="multipart/form-data">
+						
+						<div class="form">
+							
+
+								<p>
+									<label>Place Name<span>(Required Field)</span></label>
+									<input type="text" class="field size1" name="place_name" required />
+								</p>	
+								<p>
+									<label>Place Details<span>(Required Field)</span></label>
+									<input type="text" class="field size1" name="place_details" required />
+								</p>
+								<p>
+									<label>Place Address<span>(Required Field)</span></label>
+									<input type="text" class="field size1" name="address" required />
+								</p>
+								<p>
+									<span class="req">Current Images</span>
+									<label>Image <span>(Required Field)</span></label>
+									<input type="file" class="field size1" name="image" required />
+								</p>
+
+						</div>
+						
+						<div class="buttons">
+							<input type="button" class="button" value="preview" />
+							<input type="submit" class="button" value="submit" name="send" />
+						</div>
+						
+					</form>
+					
+				</div>
+
+			</div>
+			
+			<div id="sidebar">
+				
+				<div class="box">
+					
+					<div class="box-head">
+						<h2>Management</h2>
+					</div>
+					
+					<div class="box-content">
+						
+						<a href="Owner_timeline.html" class="add-button"><span>View Place List</span></a>
+						<div class="cl">&nbsp;</div>
+						
+						<!-- Sort -->
+
+						<div class="sort">
+							<label>Select Category</label>
+							<select class="field">
+								<option disabled selected>Select Category</option>
+								<option value="outdoor">Outdoors</option>
+								<option value="artculture">Art & Culture</option>
+								<option value="beaches">Beaches</option>
+								<option value="mostvisited">Most Visited</option>
+								<option value="kidfriendly">Kid Friendly</option>
+								<option value="historical">Historical</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="cl">&nbsp;</div>			
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="shell">
+		<span class="left">&copy;Tempoo Traveller</span>
+	</div>
+</div>
+
+</body>
+</html>
